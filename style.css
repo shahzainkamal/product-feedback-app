@@ -1,0 +1,220 @@
+/* section-one */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aliceblue;
+  padding: 0;
+  
+}
+.section-one {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 162, 255, 0.575),
+    rgb(195, 0, 255),
+    rgba(156, 102, 31, 0.733)
+  );
+  color: white;
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.section-one h1 {
+  font-size: 20px;
+  padding-top: 20px;
+}
+.section-one p {
+  font-size: 12px;
+}
+
+/* section-two */
+.section-two {
+  background-color: rgb(252, 252, 252);
+  padding: 10px;
+  width: 90%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.button-one {
+  font-size: 15px;
+  border-radius: 13px;
+  color: blue;
+  border: none;
+}
+.button-one:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}
+/* section-three */
+/* part-one */
+.section-three {
+  width: 15%;
+  background-color: rgb(252, 252, 252);
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.one {
+  background-color: rgba(156, 102, 31, 0.733);
+  border-radius: 25px;
+  color: rgba(156, 102, 31, 0.733);
+}
+.two {
+  background-color: rgb(195, 0, 255);
+  border-radius: 25px;
+  color: rgb(195, 0, 255);
+}
+.three {
+  background-color: rgba(0, 162, 255, 0.575);
+  border-radius: 25px;
+  color: rgba(0, 162, 255, 0.575);
+}
+.roadmap {
+  display: flex;
+  width: 100%;
+  /* background-color: rgb(252, 252, 252); */
+  gap: 63px;
+  margin-top: 20px;
+  padding: 10px;
+}
+.roadmap h6 {
+  margin: 0;
+}
+.roadmap p {
+  font-size: 13px;
+
+  margin: 0;
+}
+.view {
+  width: 90%;
+  background-color: rgb(252, 252, 252);
+  gap: 63px;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.section-all {
+  display: flex;
+}
+/* part-two */
+.planned {
+  display: flex;
+  font-size: 15px;
+  gap: 84px;
+  margin: 0;
+}
+
+/* part-three */
+.progress {
+  display: flex;
+  font-size: 15px;
+  gap: 60px;
+  margin: 0;
+}
+
+/* part-four */
+.live {
+  display: flex;
+  font-size: 15px;
+  gap: 110px;
+  margin: 0;
+}
+.span-one {
+  padding-top: 15px;
+  font-size: 15px;
+}
+.heading-two {
+  display: flex;
+}
+.image-one {
+  display: flex;
+  padding-top: 10px;
+  gap: 20px;
+  padding-right: 10px;
+}
+
+.image-two {
+  padding-left: 2px;
+  padding-top: 10px;
+}
+.suggestions {
+  display: flex;
+  background-color: rgb(49, 29, 71);
+  gap: 24%;
+  width: 140%;
+  margin-left: 10px;
+  border-radius: 10px;
+  color: white;
+  margin: 0;
+}
+
+.suggestions p {
+  font-size: 20px;
+
+  margin: 0;
+  padding-top: 15px;
+}
+.suggestions h5 {
+  margin: 0;
+  padding-top: 1px;
+}
+.add-first button {
+  margin-top: 10px;
+
+  margin-bottom: 10px;
+  font-size: 15px;
+  padding: 7px 10px 7px 10px;
+  background-color: rgb(195, 0, 255);
+  border: none;
+  border-radius: 7px;
+  color: white;
+}
+
+.arrow-one {
+  margin-top: 10px;
+  background-color: rgb(252, 252, 252);
+  width: 139%;
+  border-radius: 10px;
+  margin-left: 10px;
+  display: flex;
+  gap: 10%;
+  padding-top: 0;
+  line-height: 0;
+}
+.image-three img {
+  padding-left: 10px;
+}
+.image-three {
+  color: gray;
+  background-color: aliceblue;
+  padding-top: 30px;
+  margin-top:20px ;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.image-three {
+}
+.para-one p{
+  color: gray;
+}
+.arrow-one-first p{
+  color: gray;
+
+}
+.arrow-one-first button{
+  background-color: aliceblue;
+  border: none;
+  color: blue;
+  border-radius: 10px;
+  font-size: 17px;
+
+  padding: 10px;
+}
+.arrow-one-first button:hover{
+  background-color:  blue;
+  color:  white;
+}
+.comment-image-one{
+  padding-top: 70px;
+  padding-right: 19px;
+}
